@@ -43,3 +43,36 @@ This linear model provides effective enough prototype, considering the R squared
 As seen in the screenshots from the total summary and the lot summary above, the variance for all three lots together is within the company design specifications (slightly above 62). As for the individual lot variances, lot one and two are way under the specified 100, so they are within the meeting expectations criteria. As for lot three, it is 170, so above the criteria, and doesn't meet it therefore. 
 
 ## T-Tests on Suspension Coils
+
+All the means of the conducted T-Tests are statistically similar. THe p-values are above the 0.05 significance result. 
+
+-[x] A T-Test across all suspension coil manufacturing lots 
+
+![link](https://github.com/TamaraGR/MechaCar_Statistical_Analysis/blob/main/Deliverable_IIIa.png)
+
+-[x] Three T-Tests for three different lots 
+
+![link](https://github.com/TamaraGR/MechaCar_Statistical_Analysis/blob/main/Deliverable_IIIb.png)
+![link](https://github.com/TamaraGR/MechaCar_Statistical_Analysis/blob/main/Deliverable_IIIc.png)
+![link](https://github.com/TamaraGR/MechaCar_Statistical_Analysis/blob/main/Deliverable_IIId.png)
+
+## Study Design: MechaCar vs Competition
+
+Below is a study design suggestion for further analysis of the motor vehicles company's design and performance considerations. The study is focused around the following questions: 
+
+- [x] What metric or metrics are you going to test?
+
+The suggestion is to look at the price of the company's vehicles versus other companies' prices as well as the fuel efficiency of the motor vehicles versus similar vehicles of other companies. 
+
+- [x] What is the null hypothesis or alternative hypothesis?
+
+The null hypothesiz would be that this company's prices and fuel efficiency are not as competitive with other companies. The alternative hypothesiz would be that this company's cars have other features that make its price competitive and fuel efficiency more attractive. 
+Also, the null hypothesiz would be than the means of all the competitos are our company are equal, while the alternative hypothesiz would be that at least one mean is different.  
+
+- [x] What statistical test would you use to test the hypothesis? And why?
+
+It would be suggested to perform ANOVA tests, as long as we have the prices and the fuel efficiency data of all the competitiors. 
+
+- [x] What data is needed to run the statistical test?
+
+Aside from the mentioned above data, it'd be benefficial to know the types of materials the cars are built from, whether they are American, European, Japaneese or Korean cars (etc.), as certain major design considerations and fuel efficiency and price considerations might change then. 
