@@ -6,7 +6,7 @@
 
 ## Linear Regression to Predict MPG
 
-[Deliverable_I]()
+![Deliverable_I](https://github.com/TamaraGR/MechaCar_Statistical_Analysis/blob/main/Deliverable_I.png)
 
 The following questions address the linear regression analysis with the goal of predicting MPG:
 
