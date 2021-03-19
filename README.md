@@ -33,3 +33,13 @@ The slope of this linear model is not considered to be 0. Our p value is smaller
 This linear model provides effective enough prototype, considering the R squared value at 0.6825 and multiple R squared value at 0.7149. Some could say that the variables at hand don't give us the ideal prediction model, but it's still quiet effective, considering the values of the vehicle length, the ground clearance and the vehicle weight. 
 
 ## Summary Statistics on Suspension Coils
+
+- [x] The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+![Deliverable_IIa](https://github.com/TamaraGR/MechaCar_Statistical_Analysis/blob/main/Deliverable_IIa.png)
+
+![Deliverable_IIb](https://github.com/TamaraGR/MechaCar_Statistical_Analysis/blob/main/Deliverable_IIb.png)
+
+As seen in the screenshots from the total summary and the lot summary above, the variance for all three lots together is within the company design specifications (slightly above 62). As for the individual lot variances, lot one and two are way under the specified 100, so they are within the meeting expectations criteria. As for lot three, it is 170, so above the criteria, and doesn't meet it therefore. 
+
+## T-Tests on Suspension Coils
