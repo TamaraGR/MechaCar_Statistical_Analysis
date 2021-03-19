@@ -2,7 +2,18 @@
 
 ## Analysis Overview 
 
+In this analysis we are providing a motor vehicles company with vehicle production/ manufacturing data in order to help them improve their production issues. 
+
+The analysis provides insights on the following issues: 
+- [x] Linear regression analysis 
+- [x] Summary statistics on suspension coils
+- [x] T-test on the mean population 
+- [x] A statistical study to compare vehicle performance
+
 ## Analysis Resources 
+
+-[x] R (RStudio, dependencies dplyr, tidyverse)
+-[x] Two csv datasets (see attached in this repo)
 
 ## Linear Regression to Predict MPG
 
@@ -20,3 +31,5 @@ The slope of this linear model is not considered to be 0. Our p value is smaller
 - [x] Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 This linear model provides effective enough prototype, considering the R squared value at 0.6825 and multiple R squared value at 0.7149. Some could say that the variables at hand don't give us the ideal prediction model, but it's still quiet effective, considering the values of the vehicle length, the ground clearance and the vehicle weight. 
+
+## Summary Statistics on Suspension Coils
