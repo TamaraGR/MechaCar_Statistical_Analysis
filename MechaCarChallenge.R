@@ -13,5 +13,9 @@ lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarise(mea
 
 ## Challenge Deliverable III
 
-t.test(suspension_coil$PSI,mu=1500) #determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
+t.test(suspension_coil$PSI,mu = 1500) #determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
+#determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch
 
+t.test(subset(suspension_coil,Manufacturing_Lot == "Lot1")$PSI,mu = 1500)
+t.test(subset(suspension_coil,Manufacturing_Lot == "Lot2")$PSI,mu = 1500)
+t.test(subset(suspension_coil,Manufacturing_Lot == "Lot3")$PSI,mu = 1500)
